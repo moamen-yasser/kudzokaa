@@ -401,7 +401,7 @@ footer .boygirl img{
 
 /*media*/
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     body{
         height: 1500px;
         background-image:url(img/blue_bg.png) ;
