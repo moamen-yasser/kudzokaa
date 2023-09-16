@@ -407,6 +407,7 @@ footer .boygirl img{
         background-image:url(img/blue_bg.png) ;
         background-repeat: no-repeat;
         background-size: 100% 23%;
+        background-position: top;
         position: relative;
     }
 
@@ -421,7 +422,6 @@ footer .boygirl img{
     nav .left-nav{
         display: flex;
         position: relative;
-        gap: 5px;
     }
     .left-nav ul li{
         display: inline-block;
@@ -430,7 +430,7 @@ footer .boygirl img{
     }
     .left-nav ul li a{
         text-decoration: none;
-        font-size: 14px;
+        font-size: 11px;
         font-weight: 500;
         color: gray;
     }
@@ -473,18 +473,19 @@ footer .boygirl img{
     /*margin-top: 150px;*/
     position: absolute;
     top: 8%;
-    right: -5%;
+    right: -2%;
 }
 .sec1 .img2{
     width: 80px;
     position: absolute;
     top: 8.5%;
-    right: 7%;
+    right: 12%;
 }
 .sec1 .text{
     position: absolute;
     left: 5%;
     top: 9%;
+    width: 160px;
 }
 .sec1 .text h1{
     font-size: 24px;
@@ -506,7 +507,7 @@ footer .boygirl img{
 .sec1 .clouds{
     position: absolute;
     top: 15%;
-    right: -2%;
+    right: 1%;
 }
 .cloudss img{
     width: 0px;
@@ -524,7 +525,7 @@ footer .boygirl img{
 .waves{
     position: absolute;
     top: 16%;
-    left: -350px;
+    left: -450px;
 }
 
     /*section 2 road*/
@@ -535,26 +536,27 @@ footer .boygirl img{
 .sec2 .road img{
     width: 350px;
     position: absolute;
-    left: 18%;
+    left: 13%;
     top: -15px;
 }
 .sec2   .div1 h3  , .div2 h3 , .div3 h3{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 700;
 }
 .sec2   .div1 p  , .div2 p , .div3 p{
     font-size: 8px;
     font-weight: 400;
+    word-spacing: 0px;
 }
 .sec2 .div1 img{
     width: 50px;
 }
 .sec2 .div1{
-    width: 300px;
+    width: 250px;
     height: 300px;
     position: absolute;
     top: -100px;
-    left: -60px;
+    left: -50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -575,7 +577,7 @@ footer .boygirl img{
     height: 300px;
     position: absolute;
     top: -40px;
-    left: 85px;
+    left: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -593,7 +595,7 @@ footer .boygirl img{
     height: 300px;
     position: absolute;
     top: 50px;
-    left: 225px;
+    left: 155px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -632,7 +634,7 @@ footer .boygirl img{
     width: 100%;
 }
 .sec3 .div1 img {
-    width: 120px;
+    width: 80px;
     position: absolute;
     top: 1150px;
     left: 10px;
@@ -641,13 +643,13 @@ footer .boygirl img{
     width: 220px;
     position: absolute;
     top: 1050px;
-    left: 120px;
+    left: 80px;
 }
 .sec3 .div3 img {
-    width: 140px;
+    width: 100px;
     position: absolute;
     top: 1170px;
-    left: 340px;
+    left: 300px;
 }
 .arrow {
     border: solid gray;
@@ -660,19 +662,19 @@ footer .boygirl img{
     -webkit-transform: rotate(-45deg);
     position: absolute;
     top: 1300px;
-    left: 330px;
+    left: 280px;
 }
 .left {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     position: absolute;
     top: 1300px;
-    left: 170px;
+    left: 110px;
 }
 .sec3 .div4{
     position: absolute;
     top: 1350px;
-    left: 170px;
+    left: 120px;
     color: gray;
     letter-spacing: 1px;
     text-align: center;
@@ -702,10 +704,10 @@ footer .bg img{
     bottom: 0%;
 }
 footer .boygirl img{
-    width: 300px;
+    width: 250px;
     position: absolute;
-    top: 1572px;
-    left: 190px;
+    top: 1605px;
+    left: 170px;
 }
 .appdiv , .plydiv{
     display: flex;
