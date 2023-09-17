@@ -317,7 +317,7 @@ footer .bg img{
 footer .boygirl img{
     width: 800px;
     position: absolute;
-    top: 1540px;
+    top: 1545px;
     left: 680px;
 }
 .appdiv , .plydiv{
@@ -783,17 +783,7 @@ footer .boygirl img{
 
 
 }
-
-
-
-
-
-
-
-
 /*601 : 768*/
-
-
 @media screen and (min-width:601px) and (max-width:768px) {
     body{
         height: 1500px;
@@ -1173,10 +1163,7 @@ footer .boygirl img{
 /*end footer*/
 
 }
-
-
 /*769 : 992*/
-
 @media screen and (min-width:769px) and (max-width:992px) {
     body{
         height: 1500px;
@@ -1558,12 +1545,7 @@ footer .boygirl img{
 
 
 }
-
-
-
 /*993 : 1150*/
-
-
 @media screen and (min-width:993px) and (max-width:1355px) {
     body{
         height: 1500px;
